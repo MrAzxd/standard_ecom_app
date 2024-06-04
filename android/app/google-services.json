@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "33958095411",
+    "project_id": "demo1-acab1",
+    "storage_bucket": "demo1-acab1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33958095411:android:b78436ccbe718032ded146",
+        "android_client_info": {
+          "package_name": "com.example.ecomerce3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbntQKaFJ27R9N6Zg6-fn3IGIqsB_9gjg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

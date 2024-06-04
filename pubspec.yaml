@@ -1,0 +1,93 @@
+name: ecomerce3
+description: "A new Flutter project."
+  
+  
+publish_to: 'none'   
+
+
+  
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.6 <4.0.0'
+
+  
+  
+  
+  
+  
+  # PACJAGES 
+dependencies:
+  flutter:
+    sdk: flutter
+    
+#Utililty packages 
+  http: ^1.2.0
+  intl: ^0.19.0
+
+    #icons
+  iconsax: ^0.0.8 
+  cupertino_icons: ^1.0.2
+  logger: ^2.3.0
+  url_launcher: ^6.2.6
+  shared_preferences: ^2.2.0
+  #to get storge Lo
+  get_storage: ^2.1.1
+  #valitors dep
+  validators: ^3.0.0
+  flutter_native_splash: ^2.3.10
+  #firebase core 
+  #firebase core (downgraded for compatibility)
+  firebase_core: ^2.27.0
+  #product specific 
+  
+  smooth_page_indicator: ^1.1.0
+  
+
+ #statemanagement
+  get: ^4.6.5
+#productspecifictionpackage
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+    
+    
+    
+    
+    
+  flutter_lints: ^4.0.0
+
+  
+  
+
+  
+flutter:
+  uses-material-design: true
+
+#localassets
+
+  assets:
+    - assets/images/
+    - assets/images/on_bording_images/
+    - assets/logos/
+
+  #  - assets/icons/
+    
+#<<<<<<<<<<<<<<<<<local fonts>>>>>>>>>>>>>>>>>>>>>>>>>>>
+fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 600 
+    
+
+    
+    
+
