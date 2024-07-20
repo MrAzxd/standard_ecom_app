@@ -1,5 +1,8 @@
 import 'dart:html';
 
+import 'package:ecomerce3/screens/Home/home.dart';
+import 'package:ecomerce3/screens/Sigup/signup.dart';
+import 'package:ecomerce3/screens/Sigup/verify_email.dart';
 import 'package:ecomerce3/screens/onbording/onbordig.dart';
 import 'package:ecomerce3/utills/theme/custom_theme/text_theme.dart';
 import 'package:ecomerce3/utills/theme/theme.dart';
@@ -27,7 +30,8 @@ class App extends StatelessWidget {
       theme: TApptheme.lightTheme,
       darkTheme: TApptheme.darkTheme,
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(), //1onBordingScreen(),
+      home: //LoginScreen(),
+          onBordingScreen(),
     );
   }
 }
