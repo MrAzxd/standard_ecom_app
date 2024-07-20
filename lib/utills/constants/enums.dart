@@ -11,5 +11,5 @@ enum PaymentMethod {
   visa,
   masterCard,
   paystack,
-  razorPay
+  razorPay,
 }

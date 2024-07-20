@@ -3,6 +3,10 @@ import 'package:ecomerce3/utills/constants/text_string.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
+void main() {
+  runApp(const SignupScreen());
+}
+
 class SignupScreen extends StatelessWidget {
   const SignupScreen({super.key});
 

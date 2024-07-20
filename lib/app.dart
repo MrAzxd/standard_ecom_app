@@ -27,7 +27,8 @@ class App extends StatelessWidget {
       theme: TApptheme.lightTheme,
       darkTheme: TApptheme.darkTheme,
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(), //1onBordingScreen(),
+      home: //LoginScreen(),
+          onBordingScreen(),
     );
   }
 }
